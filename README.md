@@ -1,11 +1,28 @@
-# React + TypeScript + Vite
+# Vite template (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TODO:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [x] typescript
+- [x] prettier
+- [x] eslint
+  - [x] prettier + eslint
+- [x] tanstack router
+  - [ ] routing examples
+- [x] tanstack query (aka react query)
+  - [x] axios for http layer
+  - [x] query example
+  - [x] query error handling example
+  - [ ] mutation example
+  - [ ] mutation error handling example
+- [ ] husky + lint-staged
+- [x] yarn v4
+- [x] import path alias
+- [x] vscode setting
+- [ ] i18n
+- [ ] ssr (if possible)
+- [ ] design system / aka ui kit
+- [ ] storybook
+- [ ] head tags handling
 
 ## Expanding the ESLint configuration
 
