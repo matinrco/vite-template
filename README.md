@@ -12,7 +12,7 @@ TODO:
   - [x] axios for http layer
   - [x] query example
   - [x] query error handling example
-  - [ ] mutation example
+  - [x] mutation example
   - [ ] mutation error handling example
 - [ ] husky + lint-staged
 - [x] yarn v4
