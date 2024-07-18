@@ -12,8 +12,10 @@ TODO:
   - [x] axios for http layer
   - [x] query example
   - [x] query error handling example
+  - [ ] query example usage in react
   - [x] mutation example
   - [ ] mutation error handling example
+  - [ ] mutation example usage in react
 - [ ] husky + lint-staged
 - [x] yarn v4
 - [x] import path alias
