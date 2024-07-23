@@ -21,6 +21,10 @@ TODO:
 - [x] import path alias
 - [x] vscode setting
 - [ ] i18n
+  - [x] i18next implementation
+  - [x] typescript integration
+  - [x] router integration
+  - [ ] handle `dir` and `lang` attribute of document
 - [ ] ssr (if possible)
 - [ ] design system / aka ui kit
 - [ ] storybook

@@ -4,16 +4,16 @@ import { QueryClientProvider } from '@tanstack/react-query'
 import { RouterProvider, createRouter } from '@tanstack/react-router'
 import { queryClient } from '@/api/config'
 import { routeTree } from '@/routeTree.gen'
+import { i18n } from '@/locales/i18n'
 import '@/global.css'
 
 const router = createRouter({
   routeTree,
   context: {
     queryClient,
+    i18n,
   },
   defaultPreload: 'intent',
-  // Since we're using React Query, we don't want loader calls to ever be stale
-  // This will ensure that the loader is always called when the route is preloaded or visited
   defaultPreloadStaleTime: 0,
 })
 
