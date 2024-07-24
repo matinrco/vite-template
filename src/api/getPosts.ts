@@ -2,10 +2,11 @@ import { useQuery, useSuspenseQuery, queryOptions } from '@tanstack/react-query'
 import { queryClient, axios } from './config'
 import { GetPostsReq, GetPostsRes } from './types'
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const getPosts = async (req: GetPostsReq) => {
   const posts = await axios
-    .get<GetPostsRes>(`https://jsonplaceholder.typicode.com/posts`)
+    .get<GetPostsRes>(`https://jsonplaceholder.typicode.com/posts`, {
+      params: req,
+    })
     .then((res) => res.data)
     .catch((error) => {
       throw error
