@@ -10,10 +10,10 @@
 
 // Import Routes
 
-import { Route as rootRoute } from './routes/__root'
-import { Route as IndexImport } from './routes/index'
-import { Route as LocaleAboutRouteImport } from './routes/$locale/about/route'
-import { Route as LocaleIndexRouteImport } from './routes/$locale/index/route'
+import { Route as rootRoute } from './../__root'
+import { Route as IndexImport } from './../index'
+import { Route as LocaleAboutRouteImport } from './../$locale/about/route'
+import { Route as LocaleIndexRouteImport } from './../$locale/index/route'
 
 // Create/Update Routes
 
@@ -26,14 +26,14 @@ const LocaleAboutRouteRoute = LocaleAboutRouteImport.update({
   path: '/$locale/about',
   getParentRoute: () => rootRoute,
 } as any).lazy(() =>
-  import('./routes/$locale/about/route.lazy').then((d) => d.Route),
+  import('./../$locale/about/route.lazy').then((d) => d.Route),
 )
 
 const LocaleIndexRouteRoute = LocaleIndexRouteImport.update({
   path: '/$locale/',
   getParentRoute: () => rootRoute,
 } as any).lazy(() =>
-  import('./routes/$locale/index/route.lazy').then((d) => d.Route),
+  import('./../$locale/index/route.lazy').then((d) => d.Route),
 )
 
 // Populate the FileRoutesByPath interface
