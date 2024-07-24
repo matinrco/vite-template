@@ -16,7 +16,7 @@ TODO:
   - [x] mutation example
   - [ ] mutation error handling example
   - [ ] mutation example usage in react
-- [ ] husky + lint-staged
+- [x] husky + lint-staged
 - [x] yarn v4
 - [x] import path alias
 - [x] vscode setting
