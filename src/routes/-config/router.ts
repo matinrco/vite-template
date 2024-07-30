@@ -9,6 +9,7 @@ export const createRouter = () => {
     context: {
       queryClient,
       i18n,
+      auth: undefined!,
     },
     defaultPreload: 'intent',
     defaultPreloadStaleTime: 0,

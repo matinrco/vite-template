@@ -8,10 +8,12 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { queryClient } from '@/api/config'
 import { i18n } from '@/locales/i18n'
 import { NotFound } from '@/containers/NotFound'
+import { Auth } from '@/utils/auth'
 
 export const Route = createRootRouteWithContext<{
   queryClient: typeof queryClient
   i18n: typeof i18n
+  auth: Auth
 }>()({
   component: () => (
     <>
