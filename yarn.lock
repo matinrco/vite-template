@@ -4069,6 +4069,7 @@ __metadata:
     react-i18next: "npm:^15.0.0"
     typescript: "npm:^5.2.2"
     vite: "npm:^5.2.0"
+    zod: "npm:^3.23.8"
   languageName: unknown
   linkType: soft
 
