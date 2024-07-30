@@ -29,6 +29,7 @@ TODO:
 - [ ] design system / aka ui kit
 - [ ] storybook
 - [ ] head tags handling
+- [ ] authentication
 
 ## Expanding the ESLint configuration
 
