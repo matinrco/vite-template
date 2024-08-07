@@ -1,6 +1,6 @@
 import { createLazyFileRoute } from '@tanstack/react-router'
-import { Home } from '@/containers/Home'
+import { Root } from '@/containers/Root'
 
 export const Route = createLazyFileRoute('/$locale/')({
-  component: Home,
+  component: Root,
 })
