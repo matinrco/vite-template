@@ -30,6 +30,7 @@ TODO:
 - [ ] storybook
 - [ ] head tags handling
 - [x] authentication
+- [ ] fonts
 
 ## Expanding the ESLint configuration
 
