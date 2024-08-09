@@ -6,9 +6,7 @@ export class PostNotFoundError extends Error {}
 
 const getPost = async (req: GetPostReq) => {
   const posts = await axios
-    .get<GetPostRes>('https://jsonplaceholder.typicode.com/posts', {
-      params: req,
-    })
+    .get<GetPostRes>(`posts/${req.id}`)
     .then((res) => res.data)
     .catch((error) => {
       if (error.status === 404) {
