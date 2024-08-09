@@ -4,7 +4,7 @@ import { GetPostsReq, GetPostsRes } from './types'
 
 const getPosts = async (req: GetPostsReq) => {
   const posts = await axios
-    .get<GetPostsRes>(`https://jsonplaceholder.typicode.com/posts`, {
+    .get<GetPostsRes>(`posts`, {
       params: req,
     })
     .then((res) => res.data)

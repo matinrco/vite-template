@@ -31,7 +31,7 @@ TODO:
 - [ ] head tags handling
 - [x] authentication
 - [ ] fonts
-- [ ] env var handling
+- [x] env var handling
 
 ## Expanding the ESLint configuration
 

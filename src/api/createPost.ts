@@ -5,7 +5,7 @@ import { CreatePostsReq, CreatePostsRes } from './types'
 const createPost = async (req: CreatePostsReq) => {
   const post = await axios
     .post<CreatePostsRes, AxiosResponse<CreatePostsRes>, CreatePostsReq>(
-      'https://jsonplaceholder.typicode.com/posts',
+      'posts',
       req,
     )
     .then((res) => res.data)
