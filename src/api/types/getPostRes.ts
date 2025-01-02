@@ -1,4 +1,4 @@
-export interface GetPostRes {
+export type GetPostRes = {
   userId: number
   id: number
   title: string

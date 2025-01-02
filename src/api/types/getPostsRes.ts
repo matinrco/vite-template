@@ -1,6 +1,6 @@
-export interface GetPostsRes extends Array<Post> {}
+export type GetPostsRes = Post[]
 
-interface Post {
+type Post = {
   userId: number
   id: number
   title: string

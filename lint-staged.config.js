@@ -1,6 +1,4 @@
-const path = require('path')
-
-module.exports = {
+export default {
   // type check ts files
   '*.{ts,tsx}': () => 'tsc --noEmit',
 

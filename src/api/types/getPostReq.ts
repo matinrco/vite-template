@@ -1,3 +1,3 @@
-export interface GetPostReq {
+export type GetPostReq = {
   id: string
 }
